@@ -1,0 +1,35 @@
+{
+  "name": "notekeeperpro",
+  "displayName": "Note Keeper Pro",
+  "version": "1.0.0",
+  "description": "Advanced note-taking app with rich text editing, voice memos, and cloud synchronization",
+  "main": "index.js",
+  "scripts": {
+    "build": "cordova build",
+    "build:android": "cordova build android",
+    "build:android:release": "cordova build android --release",
+    "run:android": "cordova run android",
+    "clean": "cordova clean",
+    "prepare": "cordova prepare",
+    "serve": "cordova serve"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "mobile",
+    "app",
+    "productivity",
+    "notekeeperpro"
+  ],
+  "author": "LinhFish Development Team <dev@linhfish.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova": "^14.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  }
+}
